@@ -34,3 +34,4 @@ for line in open('df.txt','r'):
     df.add(line.strip().lower()
 # OR:
 df={line.strip().lower() for line in open('df.txt','r')}
+# Comparison: I prefer using drop_duplicates as it shorter 
