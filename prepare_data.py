@@ -1,4 +1,5 @@
 # df stand for data frame name
+-----------------------------------------------------------------------------------------------------------
 # PREVIEW DATASET
 # with the amount of data as large as nowadays,
 # getting a pre-view of dataset is necessary as it avoid long waiting time and crashing system
@@ -23,7 +24,7 @@ print(df.head(10))
 # Comparison:
 # the two method offer single line code however,
 # I prefer "heading" as it doesnt require background knowledge on sclices in Python
-
+-----------------------------------------------------------------------------------------------------------
 # DEALING WITH DUPLICATES
 # 1: using drop
 df.drop_duplicates(inplace=True)
